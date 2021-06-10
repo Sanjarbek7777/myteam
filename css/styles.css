@@ -257,3 +257,9 @@ img {
   margin-right: 23px;
 }
 
+.site-main{
+  background-image: url(../img/feature-img-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 200px 244px;
+  background-position: calc(50% + 760px) 100%;
+}
