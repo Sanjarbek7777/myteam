@@ -1,0 +1,259 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Livvic', sans-serif;
+  height: 100%;
+}
+
+img {
+  height: 100%;
+}
+
+.container {
+  max-width: 1160px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header{
+  background-color: #014E56;
+  padding-top: 77px;
+  padding-bottom: 177px;
+  overflow: hidden;
+}
+
+.site--header__logo:active{
+  transition: 0.4s ease;
+  opacity: 0.4;
+}
+
+.site-nav__contents{
+  display: flex;
+  align-items: center;
+}
+
+.site-nav__list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 80px;
+}
+
+.site-header__link{
+  width: 51px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28 px;
+  color: #FFFFFF;
+  margin-left: 40px;
+  transition: color 0.4s ease;
+}
+
+.site-header__link:hover{
+  color: #F67E7E;
+}
+
+.site-contact__link{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 24px;
+  margin-left: auto;
+  padding-top: 9px;
+  padding-right: 32px;
+  padding-bottom: 11px;
+  padding-left: 33px;
+  transition: color 0.4s ease,
+    background-color 0.4s ease;
+}
+
+.site-contact__link:hover{
+  color: #002529;
+  background-color: #ffffff;
+}
+
+
+.site-hero__contents{
+  display: flex;
+}
+
+.hero-left__content{
+  width: 635px;
+  display: flex;
+}
+
+.site-hero__title{
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  color: #FFFFFF;
+  padding-top: 133px;
+}
+
+
+
+.site-hero{
+  content: "";
+  background-image: url(../img/bg-img-left-top.svg);
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: calc(50% + -767px) 145px;
+}
+
+.site-hero{
+  position: relative;
+}
+
+.talent{
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  color: #F67E7E;
+  padding-top: 133px;
+}
+
+.site-hero__dsc{
+  width: 445px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  margin-left: 120px;
+  padding-top: 129px;
+}
+
+.site-hero__dsc::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background: #79C8C7;
+  margin-bottom: 79px;
+}
+
+.hero-right__content{
+  position: relative;
+  z-index: 1;
+}
+
+.hero-right__content::after{
+  content: "";
+  position: absolute;
+  width: 358px;
+  height: 200px;
+  background-image: url(../img/bg-img-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  left: calc(35%);
+  top: calc(124%);
+  z-index: 99;
+}
+
+.site-main{
+  background-color: #012F34;
+  padding-bottom: 140px;
+  position: relative;
+}
+
+.site-main-features{
+  display: flex;
+  padding-top: 198px;
+}
+
+.features-title{
+  margin: 0;
+  padding: 0;
+  width: 445px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.features-title::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #F67E7E;
+  margin-bottom: 54px;
+}
+
+.features__list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 65px;
+}
+
+.features-item__title{
+  width: 445px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.features-item__dsc{
+  width: 445px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  padding: 0;
+  margin: 0;
+}
+
+.features__item{
+  display: flex;
+  margin-left: 125px;
+  margin-bottom: 32px;
+}
+
+.features__item::before{
+  content: "";
+  display: block;
+  width: 72px;
+  height: 72px;
+  background-image: url(../img/human.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-right: 23px;
+}
+
