@@ -147,6 +147,15 @@ img {
   margin-right: 23px;
 }
 
+.easy::before{
+  background-image: url(../img/easy.svg);
+
+}
+
+.diagnost::before{
+  background-image: url(../img/enhanced.svg);
+}
+
 .left-content__item{
   display: flex;
   margin-bottom: 8px;
@@ -232,6 +241,13 @@ input:not(:placeholder-shown):not(:focus):valid{
   border: 2px solid #fff;
   border-radius: 24px;
   padding: 10px 32px;
+  transition: color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.contacta__button:hover{
+  background-color: #004047;
+  color: #fff;
 }
 
 /* SITE FOOTER */
