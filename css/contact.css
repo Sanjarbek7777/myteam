@@ -324,3 +324,12 @@ input:not(:placeholder-shown):not(:focus):valid{
   margin-left: auto;
 }
 
+.site-main{
+  background-image: url(../img/contacts-bg-left.svg),
+    url(../img/contacts-bg-bottom.svg);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: calc(50% + -759px) 7px,
+    calc(50% + 759px) 324px;
+}
+
